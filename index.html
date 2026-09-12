@@ -1,1 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lumière Luxe</title>
 
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Georgia, serif;
+      background: #faf7f2;
+      color: #302820;
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      padding: 45px 20px;
+      background: #f3ece3;
+    }
+
+    header h1 {
+      font-size: 42px;
+      letter-spacing: 4px;
+      font-weight: normal;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 15px;
+      letter-spacing: 2px;
+    }
+
+    nav {
+      text-align: center;
+      padding: 18px;
+      background: #fffdf9;
+      border-bottom: 1px solid #e5ddd3;
+    }
+
+    nav a {
+      color: #302820;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 14px;
+      letter-spacing: 1px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 90px 20px;
+    }
+
+    .hero h2 {
+      font-size: 38px;
+      font-weight: normal;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      max-width: 600px;
+      margin: auto;
+      color: #6d6258;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 28px;
+      padding: 13px 28px;
+      background: #302820;
+      color: white;
+      text-decoration: none;
+      letter-spacing: 1px;
+    }
+
+    section {
+      padding: 65px 20px;
+      text-align: center;
+    }
+
+    section h2 {
+      font-size: 30px;
+      font-weight: normal;
+      margin-bottom: 35px;
+    }
+
+    .products {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      flex-wrap: wrap;
+    }
+
+    .product {
+      width: 250px;
+      padding: 30px 20px;
+      background: white;
+      border: 1px solid #e8dfd5;
+    }
+
+    .product .icon {
+      font-size: 45px;
+      margin-bottom: 15px;
+    }
+
+    .product h3 {
+      font-weight: normal;
+      margin-bottom: 8px;
+    }
+
+    .product p {
+      color: #756b62;
+      font-size: 14px;
+    }
+
+    .about {
+      background: #f3ece3;
+    }
+
+    footer {
+      text-align: center;
+      padding: 35px 20px;
+      background: #302820;
+      color: white;
+    }
+
+    footer p {
+      font-size: 13px;
+      letter-spacing: 1px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 32px;
+      }
+
+      .hero h2 {
+        font-size: 30px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Lumière Luxe</h1>
+    <p>TIMELESS • ELEGANT • LUXURIOUS</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#collection">Collection</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero" id="home">
+    <h2>Jewellery That Speaks Elegance</h2>
+    <p>
+      Discover timeless pieces created to add a touch of beauty,
+      elegance and luxury to every moment.
+    </p>
+    <a class="button" href="#collection">Explore Collection</a>
+  </div>
+
+  <section id="collection">
+    <h2>Our Collection</h2>
+
+    <div class="products">
+
+      <div class="product">
+        <div class="icon">♡</div>
+        <h3>Elegant Necklace</h3>
+        <p>Delicate and timeless jewellery for every occasion.</p>
+      </div>
+
+      <div class="product">
+        <div class="icon">✦</div>
+        <h3>Luxury Earrings</h3>
+        <p>Beautiful details designed to make every look special.</p>
+      </div>
+
+      <div class="product">
+        <div class="icon">◇</div>
+        <h3>Signature Pieces</h3>
+        <p>Our carefully selected pieces for a refined style.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <h2>About Lumière Luxe</h2>
+    <p>
+      Lumière Luxe is a jewellery brand inspired by elegance,
+      simplicity and timeless beauty.
+    </p>
+  </section>
+
+  <section id="contact">
+    <h2>Order & Contact</h2>
+    <p>For orders and enquiries, visit us on Instagram.</p>
+
+    <a class="button"
+       href="https://www.instagram.com/lumiereluxe/"
+       target="_blank">
+      Visit Instagram
+    </a>
+  </section>
+
+  <footer>
+    <p>© 2026 Lumière Luxe • All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
